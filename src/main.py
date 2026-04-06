@@ -7,6 +7,7 @@ app = FastAPI(
     version="0.1.0",
 )
 
+
 @app.get("/")
 async def read_root():
     """
@@ -14,8 +15,9 @@ async def read_root():
     """
     return {
         "status": "online",
-        "message": "Welcome to LISA: Logistics Intelligence & Swarm API. The System is ready."
+        "message": "Welcome to LISA: Logistics Intelligence & Swarm API. The System is ready.",
     }
+
 
 @app.get("/health")
 async def health_check():
