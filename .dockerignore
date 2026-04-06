@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+install/
+log/
+test_results/
+
+# Version control (not required in the image)
+.git/
+.github/
+
+# IDE configurations
+.vscode/
+.idea/
+.obsidian/
+
+# Documentation and containerization manifests
+docs/
+Dockerfile
+docker-compose.yml
+README.md
+LICENSE
