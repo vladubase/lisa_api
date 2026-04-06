@@ -21,3 +21,8 @@ htmlcov/
 # IDE configurations
 .vscode/
 .idea/
+
+# Python build artifacts
+*.egg-info/
+build/
+dist/
