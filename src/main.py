@@ -3,7 +3,7 @@ from fastapi import FastAPI
 # Initialize the core FastAPI application
 app = FastAPI(
     title="LISA API",
-    description="Logistics Intelligence & Swarm API for Fleeet Management",
+    description="Logistics Intelligence & Swarm API for Fleet Management",
     version="0.1.0",
 )
 
@@ -14,7 +14,7 @@ async def read_root():
     """
     return {
         "status": "online",
-        "message": "Welcome to LISA: Ligistics Intelligence & Swarm API. The System is ready."
+        "message": "Welcome to LISA: Logistics Intelligence & Swarm API. The System is ready."
     }
 
 @app.get("/health")
